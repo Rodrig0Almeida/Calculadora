@@ -71,7 +71,8 @@ body{
     font-size: 1.2rem;
     border: none;
     outline:none;
-    background-color: #3c3f43
+    background-color: #3c3f43;
+    transition: 0.2s;
 }
 .Calculadora-grid > button:active{
     color:#3c3f43;
