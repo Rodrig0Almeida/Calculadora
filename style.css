@@ -73,6 +73,7 @@ body{
     border: none;
     outline:none;
     background-color: #3c3f43;
+    text-align: center;
     transition: 0.2s;
 }
 .Calculadora-grid > button:active{
