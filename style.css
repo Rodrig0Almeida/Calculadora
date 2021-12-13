@@ -7,12 +7,24 @@
     font-family: 'Gotham';
     font-weight: normal;
 }
+.fundo{
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 body{
     height:100vh;
     padding: 0;
     margin: 0;
-    background: linear-gradient(to bottom right, Red, #e5dddd);
+    /*background: linear-gradient(to bottom right, Red, #e5dddd);*/
+}
+.Calculadora-fundo{
+    margin: 20px;
+    border: 10px solid;
+    border-color:yellow
 }
 .Calculadora-grid{
     display: grid;
