@@ -1,10 +1,13 @@
+
 @font-face {
-    font-family:'Gotham';
-    src: url('GothamRounded-Book.otf') format('opentype');
+    font-family:'Gothamb';
+    src: url('GothamRounded-Bold.otf') format('opentype');
+    
 }
+
 *, *::before, *::after{
     box-sizing: border-box;
-    font-family: 'Gotham';
+    font-family: 'Gothamb';
     font-weight: normal;
 }
 .fundo{
@@ -12,14 +15,14 @@
 
 body{
     overflow: hidden;
-    background: #dde6ef;
+    background: #1f2023;
     height: 100vh;
     padding: 0;
     margin: 0;
     /*background: linear-gradient(to bottom right, Red, #e5dddd);*/
 }
 .Calculadora-fundo{
-    font-family: 'Gotham';
+    font-family: 'Gothamb';
     margin-top: 90px;
     width: 100vw;
     /*height: 100vh;*/
@@ -34,10 +37,10 @@ body{
     border-radius: 14px;*/
 }
 .Calculadora-grid{
-    background: #dde6ef;
-    border: 20px #dde6ef solid;
+    background: #2f3133;
+    border: 20px #2f3133 solid;
     border-radius: 13px;
-    box-shadow: 9px 9px 20px 0px #8585853d;
+    box-shadow: 4px 10px 10px 0px #19181a;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -45,15 +48,24 @@ body{
     grid-template-columns: repeat(4,75px);
     grid-template-rows: minmax(95px,auto) repeat(5,75px);
 }
+#igual{
+    background:#c02a57;
+    color: #3c3f43;
+
+}
+#operation{
+    color: #c02a57;
+}
 .Calculadora-grid > button{
+    color: #d7d7d7;
     margin: 7px;
     border-radius: 9px;
-    box-shadow: 9px 9px 20px 0px #8585853d;
+    box-shadow: 4px 10px 10px 0px #28272899;
     cursor: pointer;
     font-size: 1.2rem;
-    border: 1px solid #dde6ef;
+    border: none;
     outline: none;
-    background-color: #dde6ef
+    background-color: #3c3f43
 }
 .Calculadora-grid > button:hover{
     background-color: rgba(255,255,255,.9);
@@ -63,7 +75,6 @@ body{
 }
 .output{
     grid-column: 1/-1;
-    background-color: rgba(0, 0,0,.75);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -74,10 +85,12 @@ body{
 }
 
 .output > .previous-operand{
-    color: rgba(255,255,255,.75);
+    font-family: 'Gothamb';
+    color: #bbbbbb;
     font-size: 1rem;
 }
 .output .current-operand{
-    color: white;
+    font-family: 'Gothamb';
+    color: #d7d7d7;
     font-size: 1.5rem;
 }
