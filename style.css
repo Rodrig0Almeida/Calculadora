@@ -57,7 +57,7 @@ body{
 #operation{
     background: #5e6267;
     color: #c02a57;
-    transition: 0.1s;
+    transition: 0.05s;
 }
 #operation:active{
     background-color: rgb(31 32 35);
@@ -74,7 +74,7 @@ body{
     outline:none;
     background-color: #3c3f43;
     text-align: center;
-    transition: 0.2s;
+    transition: 0.05s;
 }
 .Calculadora-grid > button:active{
     color:#3c3f43;
