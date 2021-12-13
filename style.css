@@ -12,7 +12,7 @@
 
 body{
     overflow: hidden;
-    background: #6C7A89;
+    background: #dde6ef;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -34,6 +34,10 @@ body{
     border-radius: 14px;*/
 }
 .Calculadora-grid{
+    background: #dde6ef;
+    border: 20px #dde6ef solid;
+    border-radius: 13px;
+    box-shadow: 9px 9px 20px 0px #8585853d;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -42,11 +46,14 @@ body{
     grid-template-rows: minmax(95px,auto) repeat(5,75px);
 }
 .Calculadora-grid > button{
+    margin: 7px;
+    border-radius: 9px;
+    box-shadow: 9px 9px 20px 0px #8585853d;
     cursor: pointer;
     font-size: 1.2rem;
-    border: 1px solid white;
+    border: 1px solid #dde6ef;
     outline: none;
-    background-color: rgba(255,255,255,.75);
+    background-color: #dde6ef
 }
 .Calculadora-grid > button:hover{
     background-color: rgba(255,255,255,.9);
