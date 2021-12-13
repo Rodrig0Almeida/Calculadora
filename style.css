@@ -58,7 +58,10 @@ body{
     background: #5e6267;
     color: #c02a57;
 }
-#operation:hover , #operation:active{
+#operation.clicked{
+    pointer-events:inherit;
+  }
+#operation:hover{
     background-color: rgb(31 32 35);
 }
 .Calculadora-grid > button{
@@ -73,7 +76,7 @@ body{
     outline:none;
     background-color: #3c3f43
 }
-.Calculadora-grid > button:hover , .Calculadora-grid > button:active{
+.Calculadora-grid > button:hover{
     color:#3c3f43;
     background-color: rgb(31 32 35);
     box-shadow: inset 0px 0px 5px 0px #161616;
