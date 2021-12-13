@@ -24,10 +24,10 @@ body{
     /*background: linear-gradient(to bottom right, Red, #e5dddd);*/
 }
 .Calculadora-fundo{
-
+    background: white;
     margin: 20px;
-    border: 10px solid;
-    border-color:yellow
+    padding: 20px;
+    border-radius: 14px;
 }
 .Calculadora-grid{
     display: grid;
