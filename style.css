@@ -10,14 +10,11 @@
     font-family: 'Gothamb';
     font-weight: normal;
 }
-*:focus {
-    outline: 0 !important;
-}
-
-.fundo{
-}
-body{
+a:focus,a:visited,a:active{
     outline: none;
+  }
+  
+body{
     overflow: hidden;
     background: #1f2023;
     height: 100vh;
@@ -61,6 +58,7 @@ body{
     color: #c02a57;
 }
 .Calculadora-grid > button{
+    -webkit-tap-highlight-color: transparent;
     color: #d7d7d7;
     margin: 7px;
     border-radius: 9px;
