@@ -16,14 +16,15 @@
 }
 
 body{
-    overflow: hidden;
+    
     height: 100vh;
-    width: 100vw;
+    
     padding: 0;
     margin: 0;
     /*background: linear-gradient(to bottom right, Red, #e5dddd);*/
 }
 .Calculadora-fundo{
+
     margin: 20px;
     border: 10px solid;
     border-color:yellow
