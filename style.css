@@ -16,11 +16,8 @@
 
 .fundo{
 }
-button {
-    outline: none;
-}
-
 body{
+    outline: none;
     overflow: hidden;
     background: #1f2023;
     height: 100vh;
