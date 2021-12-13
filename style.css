@@ -19,6 +19,7 @@ body{
     /*background: linear-gradient(to bottom right, Red, #e5dddd);*/
 }
 .Calculadora-fundo{
+    font-family: 'Gotham';
     margin-top: 90px;
     width: 100vw;
     /*height: 100vh;*/
@@ -65,9 +66,9 @@ body{
     word-break: break-all;
 }
 
-.output .previous-operand{
+.output > .previous-operand{
     color: rgba(255,255,255,.75);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .output .current-operand{
     color: white;
