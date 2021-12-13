@@ -52,10 +52,14 @@ body{
 #igual{
     background:#c02a57;
     color: #3c3f43;
-
 }
+
 #operation{
+    background: #5e6267;
     color: #c02a57;
+}
+#operation:hover{
+    background-color: rgb(31 32 35);
 }
 .Calculadora-grid > button{
     -webkit-tap-highlight-color: transparent;
@@ -70,7 +74,9 @@ body{
     background-color: #3c3f43
 }
 .Calculadora-grid > button:hover{
-    background-color: rgba(255,255,255,.9);
+    color:#3c3f43;
+    background-color: rgb(31 32 35);
+    box-shadow: inset 0px 0px 5px 0px #161616;
 }
 .span-two{
     grid-column:span 2 ;
